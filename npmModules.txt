@@ -1,0 +1,49 @@
+/* Criar tabela sql com knex */
+npx knex migrate:make migration_name
+
+/* Inserir de fato as tabelas num arquivo bd.sqlite3 */
+npx knex migrate:latest
+
+/* Usar ícones no react */
+npm install react-icons
+
+/* Usar rotas na aplicação react */
+npm install react-router-dom
+
+/* Fazer chamadas a api e obter respostas */
+npm install axios
+
+/* Fazer aplicativo mobile com Expo */
+npm install -g expo-cli
+	-> O -g é pra instalar esse pacote de forma global na máquina
+expo init nomeDoProjeto
+
+/* Fazer navegação no expo */
+npm install @react-navigation/native
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install @react-navigation/stack
+
+/* Pacote de estilização do expo */
+npm install expo-constants
+
+/* Pacote pra mandar email */
+npm install expo-mail-composer
+
+/* Adiciona a funcionalidade de intl */
+npm install intl
+
+/* Biblioteca de validação */
+npm install celebrate
+
+/* Pra fazer testes */
+npm install jest
+npm jest --init
+npm test
+
+/* Trocar entre ambientes */
+npm install cross-env
+
+/* Biblioteca q faz requisiçoes da api pra testar */
+npm install supertest -D
